@@ -9,7 +9,7 @@ function AppRouter() {
   const [bgColor, setBgColor] = useState("#F5F7FB");
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/admin-user-layout">
 
       <Routes>
 
