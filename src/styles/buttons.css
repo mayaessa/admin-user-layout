@@ -1,0 +1,54 @@
+.color-buttons{
+
+display:flex;
+
+gap:20px;
+
+}
+
+.color-buttons button{
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.color-buttons button:hover{
+
+transform:scale(1.15);
+
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+}
+
+.red{
+background:#f85555;
+}
+
+.green{
+background:#0fbd72;
+}
+
+.pink{
+    background:#f269a9;
+}
+
+.blue{
+background:#5aa8ed;
+}
+
+.black{
+background:#454547;
+}
+.white{
+ background: white;
+}
